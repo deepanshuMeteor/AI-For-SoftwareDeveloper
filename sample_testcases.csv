@@ -1,0 +1,9 @@
+﻿ID,Title,Steps,Expected,Component,Priority,Tags
+TC-001,User can reset password,"1. Go to /forgot
+2. Enter email
+3. Submit",Reset email sent,Auth,P1,"smoke,regression"
+TC-002,Add to cart updates subtotal,"1. Open product
+2. Click Add to Cart
+3. View cart",Subtotal increases by price,Cart,P1,"cart,ui"
+TC-003,Empty cart shows CTA,"1. Open cart
+2. Remove all items",CTA to continue shopping visible,Cart,P2,"cart,ui,edge"
